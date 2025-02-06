@@ -9,7 +9,8 @@ import Foundation
 import FirebaseAuth
 import FirebaseFirestore
 
-class ToDoListItemViewViewModel: ObservableObject{
+class ToDoListItemViewViewModel: ObservableObject {
+    
     init() {}
     
     func toggleIsComplete(item: ToDoListItem) {
